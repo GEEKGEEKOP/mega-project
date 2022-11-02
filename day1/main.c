@@ -21,7 +21,10 @@
 // a--
 // a++
 // -----------
+int main(){
 int x,y;
 char ch='x';
 double c=2.55555555;
-
+x=10;
+return x;
+}
