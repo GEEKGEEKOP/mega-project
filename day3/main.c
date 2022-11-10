@@ -6,11 +6,13 @@ int x;
 x=10;
 int c;
 c=x*M;
-printf("\n%d",c);
+printf("\n%d\n",c);
 int z;
-scanf("\n%d",z);
-printf("\n%d",z);
-
+scanf("\n%d\n",z);
+printf("\n%d\n",z);
+if (M == 90 && x == 10){
+printf("\nHALLO Im PROGRAMMER\n");
+}
 
 return 0;
 }
