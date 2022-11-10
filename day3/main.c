@@ -12,7 +12,7 @@ if (M == 90 && x == 10){
 printf("\nHALLO Im PROGRAMMER\n");
 }
 printf("\n---------------------------------------------\n\b");
-int y,z;
+short int y,z;
 x=1;
 y=2;
 z=3;
