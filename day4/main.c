@@ -1,7 +1,14 @@
 #include <stdio.h>
 #define PI 3.14
- int main(){
+int main(){
 
-printf("HALLO");
+printf("\nHALLO\n");
 
+
+int x;
+scanf("%d", &x);
+printf("\n%d\n",x);
+int y;
+y=x > 3 ? x*1:x*10;
+printf("%d",y);
 }
