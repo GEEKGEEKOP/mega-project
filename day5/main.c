@@ -4,14 +4,13 @@
 
 int main(){
 
-
-printf("\n\v%f\n",PI);
-
-
-int x=256;
-printf("\n x = %5i \n",x);
-
-
-
+float x,y,total,p;
+printf("\nENTER X,Y? ");
+scanf("%f%f",&x, &y);
+total=x * y;
+printf("\n area = %f ",total);
+p=(x + y) * 2;
+printf("\n p = %f ",p);
+printf("\n--------------------------");
 getch();
 }
