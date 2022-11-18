@@ -8,8 +8,10 @@ int main(){
 printf("\n\v%f\n",PI);
 
 
+int x=256;
+printf("\n x = %5i \n",x);
 
 
 
-
+getch();
 }
