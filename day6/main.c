@@ -8,7 +8,7 @@ int main(){
 char ch;
 ch=getche();
 printf("\n%c\n",ch);
-if (cd == "q")
+if (ch == "q")
 	clrscr();
 printf("---------------------\n");
 
