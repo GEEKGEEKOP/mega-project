@@ -1,21 +1,13 @@
 #include <stdio.h>
-#include <conio.h> 
+ 
 int main(){
-
-
-
-
-printf("\nHALLO\n");
-int a,b,i;
-a=1;
-b=1;
-for (i = 0;i == 50;i++){
-a=a+i;
-printf("%d\n",i);
+int a,i,b;
+a=1000000000;
+for (i=1;a >= i;i++){
+b=a%i;
+if (b == 0){
+printf("\n------>  *%d*",i);
 }
-printf("%d\n",a);
+}
 
-gotoxy(10,20);
-
-getch();
 }
