@@ -4,7 +4,7 @@ main(){
 	int n;
 	scanf("\n>>> %d",&n);
 	int x;
-	x=n%2;
+	x=n / 2;
 	printf("%d",x);
 	if(x == 0){
 		printf("\nEven number");
