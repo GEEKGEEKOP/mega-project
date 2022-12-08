@@ -9,6 +9,7 @@ main(){
 	for (i=1;i <= 300;i++){
 		c=a + (b++);
 		printf("%d\n",c);
+		a++;
 
 	}
 
