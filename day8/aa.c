@@ -3,9 +3,9 @@
 main(){
 	int n;
 	scanf("\n>>> %d",&n);
-	int x;
+	float x;
 	x=n % 2;
-	printf("%d",x);
+	printf("%f",x);
 	if(x == 0){
 		printf("\nEven number");
 		}
